@@ -1,0 +1,26 @@
+# Raw e-commerce datasets (prevent GitHub file-size upload errors)
+archive/
+*.csv
+
+# Exceptions: Track your milestone result deliverables in the data folder
+!data/milestone1.csv
+!data/milestone2.csv
+!data/milestone3.csv
+
+# Python environment and bytecode caches
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/
+
+# Database files & local exports
+*.sql.gz
+*.dump
+
+# VS Code and OS configuration files
+.vscode/
+.DS_Store
+Thumbs.db
